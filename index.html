@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Food Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Correct font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>UrbanBite.</a>
+
+        <nav class="navbar">
+            <a class="actived" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>fried chicken</h3>
+                        <p>
+                            Our signature Fried Chicken Wings are perfectly marinated, fried to a golden crisp, and
+                            served with fresh lettuce and ripe cherry tomatoes. Enjoy the ultimate blend of crunch and
+                            flavor in every bite. Ideal for sharing or savoring solo!
+                        </p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home1.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>Experience the bold flavors of our Spicy Noodles, a perfect blend of al dente noodles tossed
+                            with aromatic spices and vibrant herbs, complemented by slices of savory sausage. Garnished
+                            with fresh basil leaves, this dish delivers a tantalizing kick that's both satisfying and
+                            unforgettable.</p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Hot pizza</h3>
+                        <p>Indulge in our mouthwatering Hot Pizza, featuring a crispy, golden crust topped with rich
+                            tomato sauce, melty cheese, and fresh cherry tomatoes. Garnished with vibrant green herbs,
+                            this pizza is a perfect harmony of flavors and textures, offering a deliciously satisfying
+                            experience in every bite.</p>
+                        <a href="#" class="btn">Order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home3.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends-->
+
+    <!-- dishes section starts-->
+
+    <section class="dishes" id="dishes">
+
+        <h3 class="sub-heading"> our dishes</h3>
+        <h1 class="heading"> popular dishes</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dishe1.jpg" alt="">
+                <h3>Grilled Prawn Spaghetti </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dishe2.jpg" alt="">
+                <h3>pasta salad</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$10.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dishe3.jpg" alt="">
+                <h3>Herb-Infused Roast Chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$20.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dishe4.jpg" alt="">
+                <h3>Spicy Mixed Vegetable Stir-Fry</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$23.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dishe5.jpg" alt="">
+                <h3>Ham & Pineapple Bell Pepper Pizza.</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$17.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dishe6.jpg" alt="">
+                <h3>Pepperoni & Onion Pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$22.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- dishes section ends-->
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+
+        <h3 class="sub-heading"> about us</h3>
+        <h1 class="heading"> why choose us? </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about.jpg" alt="">
+            </div>
+
+
+            <div class="content">
+                <h3>best food in the world!</h3>
+                <p>Welcome to UrbanBite! Nestled in the heart of Sri Lanka, we are dedicated to bringing you delicious,
+                    thoughtfully crafted dishes. From our signature Fried Chicken Wings to our mouthwatering Hot Pizza,
+                    Spicy Noodles, refreshing juices, and delightful desserts, every item on our menu is prepared with
+                    fresh ingredients and a passion for flavor. Join us for a memorable dining experience that
+                    celebrates the joy of great food, refreshing beverages, and sweet treats, all served with warm
+                    hospitality.</p>
+                <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus quam et neque dolor dignissimos sit eum qui ipsa minus quas.</p>     -->
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading"> our menu</h3>
+        <h1 class="heading"> today's speciality </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Double Cheese Burger</h3>
+                    <p> a double beef patty cheeseburger with fresh lettuce and tomato on a sesame seed bun, perfect for
+                        an evening treat.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu2.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Basilico Margherita Pizza</h3>
+                    <p>A classic Margherita pizza adorned with ripe tomatoes, melted mozzarella, and fresh basil leaves,
+                        radiating the essence of Italian cuisine</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$10.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Crispy Fried Chicken </h3>
+                    <p>Succulent pieces of golden-brown fried chicken, offering a crunchy exterior and juicy interior,
+                        served on a fresh bed of lettuce.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$15.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Classic Beef Tacos</h3>
+                    <p>A pair of vibrant tacos packed with seasoned ground beef, crisp lettuce, shredded cheese, and
+                        diced tomatoes, nestled in crunchy corn shells.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$8.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu5.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Nutty Fruit Delight Bowl</h3>
+                    <p>A refreshing medley of juicy fruits and crunchy nuts served over creamy yogurt, garnished with
+                        mint for a healthy, indulgent treat.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$18.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu6.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Raspberry Gold Chocolate Cake</h3>
+                    <p>A luxurious chocolate cake layered with rich ganache and crowned with fresh raspberries,
+                        sprinkled with golden sparkles for an opulent finish.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$17.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu7.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Strawberry Pizza Sundae</h3>
+                    <p>a delightful dessert featuring layers of vanilla and strawberry ice cream, lusciously topped with
+                        chocolate sauce, fresh strawberries, and a hint of mint.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$7.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu8.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Berry Cream Cupcakes</h3>
+                    <p>These are petite, indulgent cupcakes adorned with a swirl of cream and crowned with fresh
+                        strawberries, blueberries, and a delicate mint leaf.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$6.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu9.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Herb-Infused orange juice</h3>
+                    <p>It’s a vibrant, refreshing glass of orange juice, enhanced with the subtle aroma of fresh herbs,
+                        perfect for a sunny day.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$10.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu10.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Choco Deluxe Shake</h3>
+                    <p>a decadent chocolate milkshake topped with whipped cream, chocolate syrup, sprinkles, and a
+                        cherry, offering a delightful treat for the senses.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu11.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Café Choco Frappe</h3>
+                    <p>a rich, creamy chocolate frappe served in a trendy cafe style, complete with whipped cream
+                        topping and a sweet drizzle.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$4.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu12.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>donuts</h3>
+                    <p>thease are a delightful assortment of colorful donuts with various icings and toppings,
+                        symbolizing a tempting selection of sweet treats.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$3.99</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- menu section starts  -->
+
+
+    <!-- review section starts-->
+
+    <section class="review" id="review">
+
+        <h3 class="sub-heading"> customer's review</h3>
+        <h1 class="heading"> what they say </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/profile1.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Sarah Mio</h3>
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>UrbanBite is my go-to spot for flavorful meals! Their Fried Chicken Wings are addictive, and the
+                        Spicy Noodles are just perfect. Great food and friendly service every time. I always leave
+                        satisfied and looking forward to my next visit.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/profile2.jpg" alt="">
+                        <div class="user-info">
+                            <h3>david kim</h3>
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Such a gem! UrbanBite never disappoints with their delicious pizzas and refreshing juices. Highly
+                        recommend for anyone looking for a cozy dining experience. The ambiance is inviting, making it
+                        ideal for both solo meals and gatherings with friends.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/profile3.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Emily mario</h3>
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>I love UrbanBite for its vibrant atmosphere and mouthwatering desserts. Their Hot Pizza is a
+                        must-try, and the staff always make you feel welcome. A definite favorite! Their dessert
+                        selection is heavenly, especially the homemade treats.</p>
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/profile4.jpg" alt="">
+                        <div class="user-info">
+                            <h3>john deo</h3>
+                            <div class="starts">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>UrbanBite combines great food with a warm ambiance. Their attention to detail in every dish, from
+                        starters to desserts, makes dining here a delightful experience. A top choice for dining out!
+                        The menu variety ensures there's something delicious for everyone.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- review section ends-->
+
+    <!--- order section starts -->
+
+    <section class="order" id="order">
+
+        <h3 class="sub-heading"> order now</h3>
+        <h1 class="heading"> free and fast </h1>
+
+        <form action="">
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>your name</span>
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <div class="input">
+                    <span>your number</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your order</span>
+                    <input type="text" placeholder="enter food name">
+                </div>
+                <div class="input">
+                    <span>additional food</span>
+                    <input type="test" placeholder="extra with food">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>how much</span>
+                    <input type="number" placeholder="how many orders">
+                </div>
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your message</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>your address</span>
+                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="order now" class="btn">
+
+        </form>
+
+    </section>
+
+    <!--- order section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3></i>locations</h3>
+                <a href="#">sri lanka</a>
+                <a href="#">india</a>
+                <a href="#">russia</a>
+                <a href="#">japan</a>
+                <a href="#">USA</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">dishes</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                <a href="#">review</a>
+                <a href="#">order</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+94-077-657-7894</a>
+                <a href="#">+94-078-456-9876</a>
+                <a href="#">gamage@gmail.com</a>
+                <a href="#">kasuntharaka@gmail.com</a>
+                <a href="#">ambalangoda, sri lanaka - 80550</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+
+
+
+        </div>
+        <section class="location" id="location">
+            <div class="box">
+                <h3 class="sub-heading"> Visit us</h3>
+                <h1 class="heading"> find our location </h1>
+                <a href="#"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15864.820185622651!2d80.0363697788683!3d6.236681979056064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae181828d22c9e3%3A0x732306638f54a907!2sAmbalangoda%20Bus%20Station.%2C%20A2%2C%20Ambalangoda!5e0!3m2!1sen!2slk!4v1710140245813!5m2!1sen!2slk"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe></a>
+
+            </div>
+        </section>
+
+        <div class="credit"> copyright @ 2024 <span>gamage web solutions</span></div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+</body>
+
+</html>d:\SEMESTER 1\IS1106-Foundation of web technologies\Restaurant site\images
